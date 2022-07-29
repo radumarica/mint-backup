@@ -4,11 +4,11 @@
   "gatekeeper": null,
   "creators": [
     {
-      "address": "5WXif5UEG69kF7Qo71FqEiUfgyqiJYT2Uwcn3g7GLHvB",
+      "address": "HekSQzW1Yx7hiGqk41iSy8bcELLHvWn34fUe5ukyDya1",
       "share": 100
     }
   ],
-  "solTreasuryAccount": "TeEpKTJzN3yv5sabr3Bx5xNX4u7NkaPCwrWU41wSbJk",
+  "solTreasuryAccount": "HekSQzW1Yx7hiGqk41iSy8bcELLHvWn34fUe5ukyDya1",
   "splTokenAccount": null,
   "splToken": null,
   "goLiveDate": "14 Jul 2022 08:12:03 +0000",
