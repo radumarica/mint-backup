@@ -573,12 +573,20 @@ const Home = (props: HomeProps) => {
 
           <Wallet>
             {wallet ? (
+<<<<<<< HEAD
               <>
+=======
+              <div>
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
                 <WalletAmount className="sol-btn">
                   {(balance || 0).toLocaleString()} SOL
                 </WalletAmount>{' '}
                 <ConnectButton />{' '}
+<<<<<<< HEAD
               </>
+=======
+              </div>
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
             ) : (
               <ConnectButton>Connect Wallet</ConnectButton>
             )}
@@ -602,7 +610,11 @@ const Home = (props: HomeProps) => {
         <MintContainer>
           <DesContainer>
             <div>
+<<<<<<< HEAD
               <Price
+=======
+              {/* <Price
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
                 label={
                   isActive &&
                   whitelistEnabled &&
@@ -610,10 +622,20 @@ const Home = (props: HomeProps) => {
                     ? whitelistPrice + ' ' + priceLabel
                     : price + ' ' + priceLabel
                 }
+<<<<<<< HEAD
               />
               <Image src="palmversemint.gif" alt="NFT To Mint" />
             </div>
             <NFT style={{ transform: 'scale(0.3)' }} elevation={0}>
+=======
+              /> */}
+              <Image src="palmversemint.gif" alt="NFT To Mint" />
+            </div>
+            <NFT
+              style={{ transform: 'scale(0.3)', opacity: '0' }}
+              elevation={0}
+            >
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
               <br />
               {/* <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -758,17 +780,29 @@ const Home = (props: HomeProps) => {
                     <img src="palmverselogo.png" alt=""></img>
                     <GoldTitle>Minting Information</GoldTitle>
                   </LogoAligner>
+<<<<<<< HEAD
                   <p>Mint PRICE - 1000$ in SOL</p>
+=======
+                  <p>Mint PRICE - 1 Devnet SOL</p>
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
                   <p>Whitelist Sale - TBA</p>
                   <p>Public Sale - TBA</p>
                 </Des>
               </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
               <div
                 style={{
                   position: 'absolute',
                   zIndex: '10',
                   left: '57%',
                   top: '-35rem',
+<<<<<<< HEAD
+=======
+                  opacity: !wallet ? '0' : '100',
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
                 }}
               >
                 <MintButtonContainer>
@@ -784,7 +818,19 @@ const Home = (props: HomeProps) => {
                       renderer={renderCounter}
                     />
                   ) : !wallet ? (
+<<<<<<< HEAD
                     <ConnectButton>MINT</ConnectButton>
+=======
+                    <ConnectButton
+                      style={{
+                        color: 'white',
+                        display: 'block',
+                        fontSize: '18px',
+                      }}
+                    >
+                      MINT
+                    </ConnectButton>
+>>>>>>> 62b0da0e5c7b915caa81f65700ca7a9c68ff17b6
                   ) : candyMachine?.state.gatekeeper &&
                     wallet.publicKey &&
                     wallet.signTransaction ? (

@@ -3,18 +3,18 @@
   "symbol": "",
   "description": "You can get a discount with this NFT.",
   "seller_fee_basis_points": 0,
-  "image": "7.png",
+  "image": "34.png",
   "attributes": [
     {
       "trait_type": "Number",
-      "value": "7"
+      "value": "34"
     }
   ],
 
   "properties": {
     "files": [
       {
-        "uri": "7.png",
+        "uri": "34.png",
         "type": "image/png"
       }
     ],
