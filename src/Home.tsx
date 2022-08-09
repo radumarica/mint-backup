@@ -718,7 +718,7 @@ const Home = (props: HomeProps) => {
               <Des elevation={2}>
                 <LogoAligner>
                   <img src="palmverselogo.png" alt=""></img>
-                  <GoldTitle>Welcome to Palmverse DAO!</GoldTitle>
+                  <GoldTitle>Welcome to PALMVERSE NFT HOTEL!</GoldTitle>
                 </LogoAligner>
                 <p>
                   PALMVERSE is the first NFT tied to physical
