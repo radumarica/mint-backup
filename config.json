@@ -1,6 +1,6 @@
 {
   "price": 1.0,
-  "number": 41,
+  "number": 5,
   "gatekeeper": null,
   "creators": [
     {
@@ -8,10 +8,10 @@
       "share": 100
     }
   ],
-  "solTreasuryAccount": "HekSQzW1Yx7hiGqk41iSy8bcELLHvWn34fUe5ukyDya1",
+  "solTreasuryAccount": "d1NNRP5CxdKT6HdKidBKeYYQ6QSCqViFG8Y9hbA6PvP",
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "14 Jul 2022 08:12:03 +0000",
+  "goLiveDate": "15 Sep 2022 10:12:49 +0000",
   "endSettings": null,
   "whitelistMintSettings": null,
   "hiddenSettings": null,

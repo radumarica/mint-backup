@@ -1,5 +1,5 @@
 {
-  "name": "PalmverseDev",
+  "name": "Palmverse Beta Tester",
   "symbol": "",
   "description": "You can get a discount with this NFT.",
   "seller_fee_basis_points": 0,
@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Number",
-      "value": "0"
+      "value": "1"
     }
   ],
 
